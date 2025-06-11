@@ -1,0 +1,47 @@
+.App {
+  text-align: center; /* This was default, keeping it */
+  direction: rtl; /* This was added in a previous step */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-body {
+  display: flex;
+  flex-grow: 1; /* Allows this section to fill available space */
+  /* Resetting some default create-react-app styles that might interfere */
+  align-items: stretch;
+}
+
+/* Remove default CRA header styles if they conflict, or ensure they are overridden by Header.css */
+.App-header {
+  /* If create-react-app added a default App-header class with conflicting styles,
+     we might need to remove or override them here or ensure Header.css is specific enough.
+     For now, assuming Header.css handles its own styling. */
+}
+
+/* Ensure default link styling from CRA is fine or override if needed */
+.App-link {
+  color: #61dafb;
+}
+
+/* Default keyframes animation, can be kept or removed if not used */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

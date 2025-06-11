@@ -1,0 +1,7 @@
+.app-main-content {
+  /* margin-right: 220px; Remove margin, flexbox will handle spacing */
+  padding: 15px;
+  flex-grow: 1; /* Allows main content to take up remaining space */
+  overflow-y: auto;
+  background-color: #ffffff;
+}
