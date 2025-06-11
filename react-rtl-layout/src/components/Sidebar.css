@@ -1,0 +1,7 @@
+.app-sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  /* height: calc(100vh - 130px); remove fixed height, let flexbox handle it */
+  border-left: 1px solid #ccc; /* Visual separation for RTL */
+}
